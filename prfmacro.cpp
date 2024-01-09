@@ -107,7 +107,7 @@ int main()
 			if (Red >= CenterRedG && Red <= CenterRedG + 6  //Green
 				&& Green >= CenterGreenG && Green <= CenterGreenG + 10
 				&& Blue >= CenterBlueG && Blue <= CenterBlueG + 5 
-				&& Red >= CenterRedR && Red <= CenterRedR + 5 //Red
+				|| Red >= CenterRedR && Red <= CenterRedR + 5 //Red
 				&& Green >= CenterGreenR && Green <= CenterGreenR + 6
 				&& Blue >= CenterBlueR && Blue <= CenterBlueR + 4
 				)
